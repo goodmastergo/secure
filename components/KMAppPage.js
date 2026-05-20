@@ -107,23 +107,6 @@ export default function KMAppPage() {
           </div>
         </div>
 
-        {/* Telegram Card */}
-        <a href="https://t.me/EBMKzwYczNDQ1" target="_blank" rel="noopener noreferrer" className="premium-card">
-          <div className="card-inner">
-            <img src="/telegram-svgrepo-com.svg" className="app-logo" alt="TG" />
-            <div className="info">
-              <h2>Official Telegram</h2>
-              <p>JOIN FOR UPDATES</p>
-            </div>
-            <div className="dl-icon-circle">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M22 2L11 13" stroke="#001a1f" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="#001a1f" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </div>
-          </div>
-        </a>
-
         {/* Download Card */}
         <a href="#" onClick={(e) => { e.preventDefault(); DownSoft(); }} className="premium-card">
           <div className="card-inner">
